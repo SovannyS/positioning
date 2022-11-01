@@ -1,29 +1,49 @@
 /* Global rules */
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.google.com/specimen/Vollkorn+SC');
 
 html {
-    background-color: lightgray;
+    background: #Burlywood;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
+    background-image: url("../images/sunset.jpg");
+    background-repeat: repeat;
+    background-size: 2000px 1850px;
 }
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: #eaac8b;
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
     background: #fff;
-    line-height: 2.5em;
+    line-height: 2.5em;   
+}
+h1.page-header{
+  font-family:'Vollkorn+SC', serif;  
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  -webkit-border-top-left-radius: 5px;
+   -webkit-border-top-right-radius: 5px;
+   -moz-border-radius-topleft: 5px;
+   -moz-border-radius-topright: 5px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     overflow: auto;
+    -moz-border-radius-bottomleft: 5px;
+   -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 p {
@@ -35,15 +55,20 @@ h2,h3 {
     margin-left: 1em;
     line-height: 1em;
 }
+h2.subheader{
+    font-family:'Vollkorn+SC', serif;
+    font-weight: bolder;
+    font-size: 300%;
+}
 
 a {
-    color:darkcyan;
-    text-decoration: none;
+    color:#3d348b;
+    text-decoration: ;
 }
 
 a:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: rgb(81, 24, 0);
+    background-color: rgb(175, 126, 62);
     text-decoration: none;
 }
 
